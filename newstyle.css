@@ -1,0 +1,79 @@
+.page{
+    align-content: center;
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    color: black;
+    -webkit-text-fill-color: goldenrod;
+    -webkit-text-stroke: 1px;
+    background-color: rgb(230, 218, 194);
+}
+
+.container{
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: xxx-large;
+    position: relative;
+    text-align: center;
+    color: black;
+    -webkit-text-fill-color: goldenrod;
+    -webkit-text-stroke: 1px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.middle{
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: xxx-large;
+    position: relative;
+    text-align: center;
+    color: black;
+    -webkit-text-fill-color: goldenrod;
+    -webkit-text-stroke: 1px;
+}
+
+.centerwords{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+  }
+  
+ .column {
+    flex: 33.33%;
+    padding: 5px;
+    align-items: center;
+  }
+
+ 
+.about{
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: xxx-large;
+    align-content: center;
+    color: black;
+    -webkit-text-fill-color: goldenrod;
+    -webkit-text-stroke: 1px;    
+    text-align: center;
+}
+ .aboutcolor{
+    background-color: rgb(210, 198, 174);
+ }
+
+
+.prices{
+    text-align: center;
+    background-color: rgb(190, 178, 154);
+}
+
+.bottom{
+    text-align: center;
+    
+}
